@@ -1,0 +1,23 @@
+/* Mapas */
+
+$standard: (
+    /*key - valor */
+    color-standard: black,
+    bg-standard: white,
+    border-standard: 1px solid green,
+    font-standard: 44px,
+);
+
+$premium: (
+    /* key - valor */
+    color-premium: pink,
+    bg-premium: gold,
+);
+
+.standard{
+    background-color: map-get($map:$standard , $key:bg-standard );
+}
+
+.premium{
+    background-color: map-get($map:$premium , $key:bg-premium );
+}

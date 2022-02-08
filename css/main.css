@@ -1,0 +1,77 @@
+h2 {
+  color: red;
+  font-size: 80px; }
+
+header {
+  width: 1150px; }
+
+header {
+  background-color: green; }
+
+/* Mapas */
+.standard {
+  background-color: white; }
+
+.premium {
+  background-color: gold; }
+
+/* extends */
+main, footer {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 20px; }
+
+main {
+  color: red;
+  font-size: 40px;
+  margin: 30px; }
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.contenedor {
+  background-color: black; }
+
+main {
+  background-color: red;
+  width: 400px; }
+
+footer {
+  background-color: yellow;
+  width: 600px; }
+
+/* mixin
+
+@mixin botones {
+    width: 300px;
+    background-color: red;
+    border: 3px solid black;
+}
+
+.boton{
+    @include botones;
+}
+ */
+section {
+  transform: scale(50%); }
+
+.clase1 {
+  width: 500px;
+  height: 300px; }
+
+.clase2 {
+  width: 0px;
+  height: 300px; }
+
+/* condicionales */
+.boton-uno {
+  background-color: orange;
+  border: 1px solid black; }
+
+.boton-dos {
+  background-color: pink;
+  border: 2px solid pink;
+  font-size: 60px;
+  background-color: yellow; }

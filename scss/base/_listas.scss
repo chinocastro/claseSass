@@ -1,0 +1,5 @@
+$colores:red,yellow,white,black,green;
+
+header{
+    background-color: nth($colores,5)
+}

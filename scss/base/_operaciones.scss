@@ -1,0 +1,7 @@
+// operaciones en scss podemos tener + - / *
+$ancho-principal: 400px;
+
+
+header{
+    width: ($ancho-principal/2)+950;
+}
